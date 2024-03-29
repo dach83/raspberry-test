@@ -57,7 +57,8 @@ kotlin {
         }
 
         jvmMain.dependencies {
-            implementation(compose.desktop.currentOs)
+            //implementation(compose.desktop.currentOs)
+            implementation(compose.desktop.linux_arm64)
         }
 
     }

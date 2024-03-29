@@ -12,8 +12,8 @@ To build the application bundle:
  - run `./gradlew :composeApp:assembleDebug`
  - find `.apk` file in `composeApp/build/outputs/apk/debug/composeApp-debug.apk`
 Run android simulator UI tests: `./gradlew :composeApp:pixel5Check`
-
-### Desktop
+git 
+sdfsd### Desktop
 Run the desktop application: `./gradlew :composeApp:run`
 Run desktop UI tests: `./gradlew :composeApp:jvmTest`
 
